@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://player/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://enemy/Zombie.tscn" type="PackedScene" id=2]
 [ext_resource path="res://background/bg.jpg" type="Texture" id=3]
+[ext_resource path="res://light/light.png" type="Texture" id=4]
 
 [node name="World" type="Node2D"]
 
@@ -41,3 +42,13 @@ text = "Move:W A S D Shot:Mouse-Left,ESC to restart"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color( 0.780392, 0.780392, 0.780392, 1 )
+
+[node name="Light2D" type="Light2D" parent="."]
+position = Vector2( -2.54913, 274.52 )
+scale = Vector2( 1.88312, 0.53336 )
+texture = ExtResource( 4 )
+energy = 0.5
+shadow_enabled = true
