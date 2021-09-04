@@ -37,7 +37,7 @@ margin_top = 30.0
 margin_right = 160.0
 margin_bottom = 44.0
 rect_scale = Vector2( 2, 2 )
-text = "W A S D Mouse-Left"
+text = "Move:W A S D Shot:Mouse-Left,ESC to restart"
 __meta__ = {
 "_edit_use_anchors_": false
 }

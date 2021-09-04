@@ -24,12 +24,15 @@ func _physics_process(delta):
 	var look_vec = get_global_mouse_position() - global_position
 	global_rotation = atan2(look_vec.y, look_vec.x)
 	
-	if Input.is_action_just_pressed("ui_accept"):
+	if Input.is_action_just_pressed("ui_select"):
 		$"Muzzle/Gunshot".emitting=true
 		$"Muzzle/ShotSound".play()
 		var coll = raycast.get_collider()
 		if raycast.is_colliding() and coll.has_method("kill"):
 			coll.kill()
+			
+	if Input.is_action_just_pressed("ui_cancel"):
+		kill()
 
 func kill():
 	get_tree().reload_current_scene()
