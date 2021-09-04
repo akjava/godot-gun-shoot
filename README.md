@@ -19,7 +19,7 @@ https://godotengine.org/asset-library/asset/118
 2D lights and shadows
 https://docs.godotengine.org/en/stable/tutorials/2d/2d_lights_and_shadows.html
 
-## Usin cc0 Assets 
+## Using cc0 Assets 
 background image
 https://polyhaven.com/a/dirty_concrete
 
