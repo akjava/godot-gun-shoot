@@ -3,6 +3,7 @@ simple 2D gun shoot example,based on Basic Top Down Shooter
 
 https://godotengine.org/asset-library/asset/293
 
+![screenshots/shot01.jpg](screenshots/shot01.jpg)
 ## Changed
 - replace character images:made with blender & makehuman
 - add background image : just sprite image insert first.
